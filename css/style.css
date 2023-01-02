@@ -34,3 +34,24 @@ body {
     padding: 30px 0 0 0;
     background-color: var(--darkBlueOpac);
 }
+
+#title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#description {
+    margin: 20px;
+    text-align: left;
+}
+
+#name,
+#email,
+#number {
+    display: grid;
+}
+
+input {
+    width: 80%;
+
+
