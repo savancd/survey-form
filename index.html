@@ -14,17 +14,56 @@
     <title>Survey Form | Sava Maksimovic</title>
 </head>
 <body>
-    <div class="wrapper">
-        <h1 id="title">Expats Community Survey</h1>
-        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
-
-        <form action="" id="survey-form">
-            <label for="name">Name: <input type="text" id="name" required></label>
-            <label for="name">Name: <input type="email" id="email" required></label>
-
-        </form>
-
-
+    <div id="container">
+            
+                <h1 id="title">Expats Community Survey</h1>
+                <p id="description">Thank you for taking the time to complete this survey. Your feedback is important to us and will help us to improve our blog and better serve the Serbian and Filipino community. We appreciate your input and look forward to hearing your thoughts</p>
+            
+            <div class="wrapper">
+                <form id="survey-form">
+                    <label id="name-label" for="name">Name:
+                        <input id="name" type="text" placeholder="Enter you name" required>
+                    </label>
+                    <label id="email-label" for="email">Name:
+                         <input id="email" type="email" placeholder="Enter you email" required>
+                    </label>
+                    <label id="number-label" for="number">Age(optional):
+                        <input id="number" type="number" min="16" max="99" placeholder="Age" required>
+                   </label>
+                    <p>What is your favorite part of this website</p>
+                   <select name="" id="dropdown">
+                        <option value="">Select an option</option>
+                        <option value="Stories">Stories</option>
+                        <option value="Information">Information</option>
+                        <option value="How-to-do">How-to-do</option>
+                        <option value="Travels">Travels</option>
+                        <option value="Other">Other</option>
+                   </select>
+                   <p>Would you be interested in participating in interviews or sharing your experiences living or traveling in Serbia and the Philippines on the blog?</p>
+                    <input type="radio" name="rBtn" value="definitely" checked>
+                         <label for="">Definitely</label>
+                    <input type="radio" name="rBtn" value="not-sure">
+                         <label for="not-sure">Not sure</label>
+                    <input type="radio" name="rBtn" value="maybe">
+                         <label for="maybe">Maybe</label>
+                   <p>What would you like to see improved? (Check all that apply)</p>
+                   <input type="checkbox" name="check" value="design">
+                        <label for="check">Design</label>
+                    <input type="checkbox" name="check" value="information">
+                        <label for="check">Information</label>
+                    <input type="checkbox" name="check" value="stories">
+                        <label for="check">Stories</label>
+                    <input type="checkbox" name="check" value="posts">
+                        <label for="check">Videos</label>
+                    <input type="checkbox" name="check" value="help-desk">
+                        <label for="check">Help Desk</label>
+                    <input type="checkbox" name="check" value="everything">
+                        <label for="check">Everything</label>
+                    <p for="review">Any additional comments or suggestions?</p>
+                    <textarea id="review" name="review" cols="30" rows="10" placeholder="Enter your comment here ..."></textarea>
+                    <input id="submit" type="submit"></input>
+                </form>
+            </div>
     </div>
 </body>
 </html>
