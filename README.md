@@ -1,2 +1,1 @@
-# This is survey-form done for Sertification Project 
-## The Course on FreeCodeCamp for Responsive website design 
+## This is survey-form done for Certification Project for the Course on FreeCodeCamp for Responsive website design 
